@@ -25,8 +25,6 @@
 	const SYMBOL_KEY = '__wrap_balancer'
 
 	onMount(() => {
-		console.log(wrapper)
-
 		if (!wrapper) return
 
 		const container = wrapper.parentElement
