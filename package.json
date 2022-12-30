@@ -1,8 +1,9 @@
 {
 	"name": "svelte-wrap-balancer",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Yurica <iherewithmyheart@gmail.com>",
 	"license": "MIT",
+	"description": "Simple Svelte Component That Makes Titles More Readable.",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
