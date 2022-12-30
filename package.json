@@ -1,7 +1,8 @@
 {
 	"name": "svelte-wrap-balancer",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Yurica <iherewithmyheart@gmail.com>",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
