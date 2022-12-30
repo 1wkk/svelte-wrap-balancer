@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte'
-	import { browser } from '$app/environment'
 
 	/**
 	 * The HTML tag to use for the wrapper element.
@@ -84,7 +83,7 @@
 	const sp = `<script> window.${SYMBOL_KEY}=${MINIFIED_RELAYOUT_STR};window.${SYMBOL_KEY}("${id}",${ratio}) <\/script>`
 
 	$: {
-		browser && wrapper && (window[SYMBOL_KEY] = relayout)(0, ratio, wrapper)
+		wrapper && (window[SYMBOL_KEY] = relayout)(0, ratio, wrapper)
 	}
 </script>
 
