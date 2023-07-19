@@ -16,11 +16,11 @@ npm install svelte-wrap-balancer
 
 ```svelte
 <script>
-	import Balancer from 'svelte-wrap-balancer';
+	import Balancer from 'svelte-wrap-balancer'
 </script>
 
 <h1>
-	<Balancer>My Awesome Title</Balancer>
+	<Balancer>Svelte Wrap Balancer</Balancer>
 </h1>
 ```
 

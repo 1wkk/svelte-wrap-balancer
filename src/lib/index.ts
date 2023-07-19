@@ -1,3 +1,3 @@
-import Balancer from './Balancer.svelte';
+import Balancer from './Balancer.svelte'
 
-export default Balancer;
+export default Balancer
