@@ -40,4 +40,8 @@
 		"vitest": "^0.25.3"
 	},
 	"type": "module"
+	"exports": {
+		".": {
+			"svelte": "./index.js"
+		}
 }
